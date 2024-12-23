@@ -7,3 +7,8 @@ spring:
     username: yasuke
     password: pedrotomaz09172314
     driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # Não recomendado em produção
+    show-sql: true
